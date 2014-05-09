@@ -1,0 +1,13 @@
+
+DESCRIPTION:
+My name is Kevin Teynor. I'm a student at Neumont University in the Bachelor of Science in Software and Game Development. I've worked on many projects spanning the 3 year program, each of which has given me new insight into the many facets of game development.
+
+
+EMAIL:
+<script type="text/javascript">
+	//<![CDATA[
+	<!--
+	var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.charAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\"\\\\,l=x.length;for(i=0;i<l;i++){if(i<43)y++;y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\HASGYSVN\\\\\\\\022I2+0#$$dll3t>*?:c<@\\\\\\\\t\\\\\\\\007\\\\\\\\001\\\\\\\\006\\\\\\\\030\\\\\\\\001J\\\\\\\\031\\\\\\\\021\\\\\\\\000\\\\\\\\021\\\\\\\\024\\\\\\\\010\\\\\\\\033xllvEaji`f%obcS21frfrsc%E8D~q\\\\\\\\177qK}\\\\\\\\000\\\\\\\\035O@PNF]ORBB\\\\\\\\\\\\\\\\oW\\\\\\\\\\\\\\\\SZX\\\\\\\\033UXU\\\\\\\\005\\\\\\\\025Z\\\\\\\\002\\\\\\\\037\\\\\\\\027\\\\\\\\004pz\\\"\\\\,43)\\\"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)35=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")";while(x=eval(x));
+	//-->
+	//]]>
+</script>

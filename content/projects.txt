@@ -1,0 +1,19 @@
+Lycan
+Lycan is a networked multi-player built in Unity. I worked with a team of 11 people to develop it.
+
+Teyke Toolkit
+				
+Dark Maze
+A puzzle game created in unity for the Utah indie game jam. You traverse a maze by collecting different light sources which are used as keys to solve puzzles.
+
+3D Geometry Wars
+A single player 3D game created in XNA. You start inside the outer layer of several nested spheres, trying to reach the center. There are randomly located enemy-spawners that activate based on the layer you care currently inside. To reach the next layer you must kill all the spawners while avoid or killing the enemies they produce. This project won first place in Neumont's project showcase.
+
+Planetary Domination
+A 2-player flash game where the goal is to absorb your opponent by becoming the largest and ramming into him. Players absorb constantly-spawning neutral resources to grow larger, but any resource that is larger than the player will instead absorb him! Several different types of power-ups also spawn periodically which keeps the game interesting.
+
+Mobile Game
+I created this android game with Unity during a 5 week class at Nuemont.
+		
+Mothership
+I built this game while taking my first C++ class at Neumont.
