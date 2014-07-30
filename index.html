@@ -1,70 +1,296 @@
-<html class="" lang="en">
-<!DOCTYPE html>
+<!doctype html>
+<html>
 <head>
 	<meta charset="utf-8">
-	<title>Kevin Teynor | Portfolio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
+	<meta name="description" content="Portfolio website to showcase Kevin Teynor game development work in C++ Unity C# and Java">
 	<meta name="author" content="Kevin Teynor">
-	<link href="./css/spark.min.css" rel="stylesheet">
-	<link href="./css/portfolio.css" rel="stylesheet">
-	<script src="./js/jquery-1.11.0.min.js"></script>
-	<script src="./js/spark.min.js"></script>	
+	<title>Kevin Teynor | Portfolio</title>	
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link href="css/lightbox.css" rel="stylesheet" media="screen" />
+	<link href="css/portfolio.css" rel="stylesheet" media="screen" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/parallax.js"></script>
 </head>
 
-<body class="main-body">
-	<header class="container limit navigation nav-light">
-		<nav id="primary-nav" class="key" role="navigation">
-			<div class="nav-container">
-				<a href="#" class="nav-link btn-touch btn-touch-flat btn-touch-light" onclick="return false;">
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</a>
-				<ul class="nav-brand">
-					<li class="name"><h1><a href="index.html">Kevin Teynor</a></h1></li>
+<body data-spy="scroll" data-target=".projects-nav">
+	<div class="navbar navbar-inverse navbar-fixed-top no-margin">
+		<div class="navbar-inner">
+			<div class="container">
+				<h3 class="nav navbar-text light-color" id="title-text">Kevin Teynor | Game Programmer</h3>
+				<ul class="nav vert-aligned light-color">
+					<li><a class="scroll light-color" href="#about">About</a></li>
+					<li><a class="scroll light-color" href="#projects">Projects</a></li>
+					<li class="divider"></li>
+					<li><a class="light-color" href="mailto:kevinteynor@gmail.com" target="_top">kevinteynor@gmail.com</a></li>
+					</li>
+					<li><a class="light-color" href="https://drive.google.com/file/d/1VWIvT9k4_duZJII3h_3ZCyruPl8pUnmlIoK6FoLgt-Pa-XLP9U5eE6U69vTwcrCrfSDlN9zKmL1aId3r/edit?usp=sharing" target="_blank">Resume</a></li>
+					<li>
+						<a href="http://www.linkedin.com/pub/kevin-teynor/42/9a5/995/" target="_blank" style="padding-top:5px; padding-bottom:5px">
+						<img class="link-image" src="images/linkedin.png"></a>
+					</li>
+					<li>
+						<a href="https://github.com/kevinteynor" target="_blank" style="padding-top:5px; padding-bottom:5px">
+						<img class="link-image" src="images/github.png"></a>
+					</li>
 				</ul>
-				<ul class="nav-list">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="projects.html">Projects</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	
-	<!-- <div class="alert alert-red warning-light center" style="margin-bottom:0px">
-		Site under construction! Please bear with me while I get everything set up.
-	</div> -->
-	
-	<div class="container limit">
-		<div class="row light-bg">
-			<div class="spacer30"></div>
-		</div>
-		<div class="row light-bg">
-			<div class="col of-5">
-				<p>
-					My name is Kevin Teynor. I'm a student at Neumont University in the Bachelor of Science in Software and Game Development. 
-					I've worked on many projects spanning the 3 year program, each of which has given me new insight into the many facets of game development.
-				</p>
-			</div>
-		</div>
-		<div class="spacer30"></div>
-		<div class="row">
-			<div >
-				<div class="col of-2"><p class="center">Contact me:</p></div>
-				<div class="col of-2"><p class="center">
-					<script type="text/javascript">
-						//<![CDATA[
-						<!--
-						var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.charAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\"\\\\,l=x.length;for(i=0;i<l;i++){if(i<43)y++;y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\HASGYSVN\\\\\\\\022I2+0#$$dll3t>*?:c<@\\\\\\\\t\\\\\\\\007\\\\\\\\001\\\\\\\\006\\\\\\\\030\\\\\\\\001J\\\\\\\\031\\\\\\\\021\\\\\\\\000\\\\\\\\021\\\\\\\\024\\\\\\\\010\\\\\\\\033xllvEaji`f%obcS21frfrsc%E8D~q\\\\\\\\177qK}\\\\\\\\000\\\\\\\\035O@PNF]ORBB\\\\\\\\\\\\\\\\oW\\\\\\\\\\\\\\\\SZX\\\\\\\\033UXU\\\\\\\\005\\\\\\\\025Z\\\\\\\\002\\\\\\\\037\\\\\\\\027\\\\\\\\004pz\\\"\\\\,43)\\\"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)35=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")";while(x=eval(x));
-						//-->
-						//]]>
-					</script>
-				</p></div>
-				<div class="col of-2"><p class="center"><a href="http://www.linkedin.com/pub/kevin-teynor/42/9a5/995/">linkedin</a></p></div>
-				<div class="col of-2"><p class="center"><a href="https://twitter.com/kevinteynor">twitter</a></p></div>
 			</div>
 		</div>
 	</div>
+	
+	<section id="about" data-speed="2" data-type="background">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span10 ">
+						<p class="lead light-color">I've done work for both <a href="http://www.ninjabee.com/">NinjaBee</a> 
+						and <a href="http://www.reactgames.com/">React! Games</a> developing prototypes and a code base for 
+						real projects that will hopefully be released in the future. I've built a rendering engine from scratch 
+						in <b>C++</b>, using <b>OpenGL</b>, <b>glm</b> and <b>Qt</b> extensively. It supports level saving/loading (in a native, streamlined format), 
+						profiling/logging, A* pathfinding, and particle physics. I've had 3 years of experience working on teams ranging from 2-15+ people.
+						</p>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span10">
+						<iframe class="centered-media" width="640" height="480" src="http://www.youtube.com/embed/nZfVkUjW6-w?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="row-fluid top-spacing">
+					<div class="span10">
+						<p class="lead light-color">
+						I'm passionate about programming, especially game programming.  I am actively looking for career oportunities
+						for when I graduate Neumont University in September of this year. Please contact to me regarding anything and everything
+						you have a question about.
+						</p>
+					</div>
+				</div>
+				<!--
+				<div class="row-fluid top-spacing">
+					<div class="span6 well">
+						<blockquote>Kevin has the ability to dive into complex systems and come out on top 
+						with solid solutions for the problems at hand. Wading through interconnected APIs and modules, 
+						he can produce functionality on time and to-spec. Kevin deftly works around technical challenges 
+						to deliver functional code, while constantly iterating towards complete solutions.</blockquote>
+						<p class="text-right"><a href="https://www.linkedin.com/pub/tyson-ratliff/47/a4a/821">Tyson Ratliff</a>, Wahoo Studios</p>
+					</div>
+					<div class="span6 well">
+						<blockquote>I was Kevin's instructor for his Capstone project. He is a skilled 
+						programmer and has a talent for figuring out difficult problems. Kevin has a good work ethic 
+						and always tended to look for the best solution even if it wasn't the easiest. He would be 
+						an asset to any development studio.</blockquote>
+						<p class="text-right"><a href="http://www.linkedin.com/in/tbeatty">Tom Beatty</a>, The Dimension's Edge</p>
+					</div>
+				</div>
+				-->
+			</div>
+	</section>
+	
+	<section id="projects" data-speed="12" data-type="background">	
+		<div class="container">
+			<div class="row-fluid">				
+				<div class="offset9 span2">
+					<ul id="sidenav" class="nav intro-projects-sidenav well" style="position:fixed">
+						<li class="lead">Projects</li>
+						<li><a class="scroll" href="#lycan">Lycan</a></li>
+						<li><a class="scroll" href="#engine">C++ Game Engine</a></li>
+						<li><a class="scroll" href="#capturetheflag">AI Capture the Flag</a></li>
+						<li><a class="scroll" href="#physicsdemos">Physics Demos</a></li>
+						<li><a class="scroll" href="#3dgw">3D Geometry Wars</a></li>
+						<li><a class="scroll" href="#planetarydom">Planetary Domination</a></li>
+						<li><a class="scroll" href="#mothership">Mothership</a></li>					
+					</ul>
+				</div>
+			</div>
+			
+			<!-- Lycan -->
+			<div class="row-fluid">
+				<div id="lycan" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>Lycan</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">Unity3D</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>Lycan is a networked multi-player being built in Unity. I worked with a team of 11 people to develop it for 5 weeks, 
+						and we'll spend another 5 weeks on it during a later quarter at Neumont. I was in charge of implementing the networking
+						functionality, as well as parts of the core gameplay.</p>
+					</div>
+					<iframe class="centered-media" width="80%" height="360" src="http://www.youtube.com/embed/SzCfCq1HZWk?rel=0" frameborder="0" allowfullscreen></iframe>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/Lycan1.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan1_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan2.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan2_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan3.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan3_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan4.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan4_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan5.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan5_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan6.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan6_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/Lycan7.jpg" data-lightbox="lycan"><img class="img-rounded" src="images/projects/thumbs/Lycan7_TN.jpg" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Engine -->
+			<div class="row-fluid">
+				<div id="engine" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>C++ Rendering Engine</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">C++, OpenGL, Qt, GLM</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>During my 3 years at Neumont University I built a rendering engine in C++ from scratch. I used OpenGL for the graphics, 
+						and Qt for a window context and widgets for debuging. It supports loading/saving of level data in a streamlined native format,
+						as well as loading both FBX and OBJ model files. It has <a href="#physicsdemos">2D particle physics</a> as well as 
+						<a href="#capturetheflag">A* pathfinding</a>. It has a profiling and logging system that writes a custom message buffer
+						to HTML.</p>
+					</div>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/engine_1.png" data-lightbox="Engine"><img class="img-rounded" src="images/projects/thumbs/engine_1_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/engine_2.png" data-lightbox="Engine"><img class="img-rounded" src="images/projects/thumbs/engine_2_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/engine_3.png" data-lightbox="Engine"><img class="img-rounded" src="images/projects/thumbs/engine_3_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/engine_4.png" data-lightbox="Engine"><img class="img-rounded" src="images/projects/thumbs/engine_4_TN.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- AI CTF -->
+			<div class="row-fluid">
+				<div id="capturetheflag" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>AI Capture the Flag</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">C++, OpenGL</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>For this project I combined A* pathfinding and decision trees to create an 4-player AI capture the flag demo.
+						Each AI player can be either defensive or aggresive; which is demonstrated by their decisions to either guard their
+						own flag or capture the enemy's. I also created a level editor to build and modify the A* pathfinding nodes which reads
+						FBX and OBJ files and saves them in a native format. The rendering is done with OpenGL.</p>
+					</div>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/aiflag_1.png" data-lightbox="AI_Capture"><img class="img-rounded" src="images/projects/thumbs/aiflag_1_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/aiflag_2.png" data-lightbox="AI_Capture"><img class="img-rounded" src="images/projects/thumbs/aiflag_2_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/aiflag_3.png" data-lightbox="AI_Capture"><img class="img-rounded" src="images/projects/thumbs/aiflag_3_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/aiflag_4.png" data-lightbox="AI_Capture"><img class="img-rounded" src="images/projects/thumbs/aiflag_4_TN.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Physics -->
+			<div class="row-fluid">
+				<div id="physicsdemos" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>Physics Demos</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">C++, Qt</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>These projects are the product of the 5-week physics course I took at Neumont University. During the course I 
+						created demos to showcase reactions that can be created using particle physics. I dealt with springs, collision,
+						restitution, interpenetration, and resting contacts. I also created an interactive cloth physics demo. I also 
+						developed a rendering backend for all the demonstrations using Qt and OpenGL.</p>
+					</div>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/phys_1.png" data-lightbox="physics_labs"><img class="img-rounded" src="images/projects/thumbs/phys_1_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/phys_2.png" data-lightbox="physics_labs"><img class="img-rounded" src="images/projects/thumbs/phys_2_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/phys_3.png" data-lightbox="physics_labs"><img class="img-rounded" src="images/projects/thumbs/phys_3_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/phys_4.png" data-lightbox="physics_labs"><img class="img-rounded" src="images/projects/thumbs/phys_4_TN.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 3DGW -->
+			<div class="row-fluid">
+				<div id="3dgw" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>3D Geometry Wars</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">XNA</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>A single player 3D game created in XNA. You start inside the outer layer of several nested spheres, 
+						trying to reach the center. There are randomly located enemy-spawners that activate based on the layer 
+						you care currently inside. To reach the next layer you must kill all the spawners while avoid or 
+						killing the enemies they produce. This project won first place in Neumont's project showcase.</p>
+					</div>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/tdgw_1.png" data-lightbox="tdgw"><img class="img-rounded" src="images/projects/thumbs/tdgw_1_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/tdgw_2.png" data-lightbox="tdgw"><img class="img-rounded" src="images/projects/thumbs/tdgw_2_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/tdgw_3.png" data-lightbox="tdgw"><img class="img-rounded" src="images/projects/thumbs/tdgw_3_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/tdgw_4.png" data-lightbox="tdgw"><img class="img-rounded" src="images/projects/thumbs/tdgw_4_TN.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Planetary Domination -->
+			<div class="row-fluid">
+				<div id="planetarydom" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>Planetary Domination</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">Flash ActionScript</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>A 2-player flash game where the goal is to absorb your opponent by becoming the largest and ramming into him. 
+						Players absorb constantly-spawning neutral resources to grow larger, but any resource that is larger than the player 
+						will instead absorb him! Several different types of power-ups also spawn periodically which keeps the game interesting.</p>
+					</div>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/planetary_1.png" data-lightbox="planetary"><img class="img-rounded" src="images/projects/thumbs/planetary_1_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/planetary_2.png" data-lightbox="planetary"><img class="img-rounded" src="images/projects/thumbs/planetary_2_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/planetary_3.png" data-lightbox="planetary"><img class="img-rounded" src="images/projects/thumbs/planetary_3_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/planetary_4.png" data-lightbox="planetary"><img class="img-rounded" src="images/projects/thumbs/planetary_4_TN.png" width="150" height="150"></a>
+						<a href="images/projects/full/planetary_5.png" data-lightbox="planetary"><img class="img-rounded" src="images/projects/thumbs/planetary_5_TN.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Mothership -->
+			<div class="row-fluid">
+				<div id="mothership" class="span9 well">
+					<div class="row-fluid">
+						<div class="span6">
+							<h3>Mothership</h3>
+						</div>
+						<div class="span6">
+							<h4 class="text-right">C++</h4>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<p>I built this game while taking my first C++ class at Neumont. The primary goal of the 
+						class was to learn the basics of C++ and recreate geometry wars, but I decided to do something 
+						different. The context was provided as a part of the class but everything else in the game 
+						was hand coded.</p>
+					</div>
+					<iframe class="centered-media" width="80%" height="360" src="http://www.youtube.com/embed/Ufj6P0Kg4d0?rel=0" frameborder="0" allowfullscreen></iframe>
+					<div class="image-set centered-media" style="width:80%">
+						<a href="images/projects/full/mothership_1.png" data-lightbox="mothership"><img class="img-rounded" src="images/projects/thumbs/mothership_1_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/mothership_2.png" data-lightbox="mothership"><img class="img-rounded" src="images/projects/thumbs/mothership_2_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/mothership_3.png" data-lightbox="mothership"><img class="img-rounded" src="images/projects/thumbs/mothership_3_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/mothership_4.png" data-lightbox="mothership"><img class="img-rounded" src="images/projects/thumbs/mothership_4_TN.jpg" width="150" height="150"></a>
+						<a href="images/projects/full/mothership_5.png" data-lightbox="mothership"><img class="img-rounded" src="images/projects/thumbs/mothership_5_TN.jpg" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>

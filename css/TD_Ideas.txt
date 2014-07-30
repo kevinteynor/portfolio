@@ -1,0 +1,4 @@
+Networked TD MMO
+
+- level/wave based gameplay
+- persistent character/player 
